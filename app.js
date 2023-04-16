@@ -6,7 +6,8 @@ const quizData = [
         c: "To select the device portfolio and prioritization for test execution",
         d: "To select the application type and development model to follow",
         correct: "c",
-        number: "Question 1"
+        number: "Question 1",
+        chapter: 'Chapter 1'
     },
     {
         question: "Your team is developing a free-use application that collects publicly available news from user selected sources so that the user has a single place to read all the news from his/her favorite sources. Based on this information, which of the following business models is MOST appropriate?",
@@ -15,7 +16,8 @@ const quizData = [
         c: "Paid application",
         d: "Transaction-based application",
         correct: "b",
-        number: "Question 2"
+        number: "Question 2",
+        chapter: 'Chapter 1'
     },
     {
         question: "Which of the following statements is true for feature phones?",
@@ -24,7 +26,8 @@ const quizData = [
         c: "Feature phones are the next generation smartphones, with extended functionality",
         d: "Feature phones have cameras, GPS and other sensors built in",
         correct: "a",
-        number: "Question 3"
+        number: "Question 3",
+        chapter: 'Chapter 1'
     },
     {
         question: "Your team develops an Android game utilizing many device features such as camera, GPS and device orientation. Which of the following types of application is MOST suitable, if the precise use of device specific features is essential?",
@@ -33,7 +36,8 @@ const quizData = [
         c: "Native app",
         d: "Desktop app",
         correct: "c",
-        number: "Question 4"
+        number: "Question 4",
+        chapter: 'Chapter 1'
     },
     {
         question: "Your team develops an iOS app that is used to register users, their e-mail and street addresses.The data is transferred to a server and provides registered users with samples of physical products, shipped via normal mail. Which of the following are the MOST appropriate architectural decisions to consider for this app?",
@@ -42,7 +46,8 @@ const quizData = [
         c: "Store and forward",
         d: "Web app",
         correct: "b",
-        number: "Question 5"
+        number: "Question 5",
+        chapter: 'Chapter 1'
     },
     {
         question: "Your analytics data shows that all your users use iPhone. Which of the following decisions is MOST appropriate for your test strategy if you have a low risk app?",
@@ -51,7 +56,8 @@ const quizData = [
         c: "Use maximum coverage strategy",
         d: "Use iOS simulators only",
         correct: "b",
-        number: "Question 6"
+        number: "Question 6",
+        chapter: 'Chapter 1'
     },
     {
         question: "Which of the following is NOT a challenge when testing mobile apps?",
@@ -60,7 +66,8 @@ const quizData = [
         c: "Multiple network types and network providers",
         d: "Non-availability of newly launched devices necessitating the use of emulators/simulators",
         correct: "b",
-        number: "Question 7"
+        number: "Question 7",
+        chapter: 'Chapter 1'
     },
     {
         question: "A company has decided to use crowd testing. Which of the following risks is mitigated by this decision?",
@@ -69,7 +76,8 @@ const quizData = [
         c: "Non-availability of important devices during testing ",
         d: "Good reviews in the platform provider's app store",
         correct: "c",
-        number: "Question 8"
+        number: "Question 8",
+        chapter: 'Chapter 1'
     },
     {
         question: "When testing a native app using different device features, which of the following hardware devices is LEAST needed to be in focus when performing the tests?",
@@ -78,7 +86,8 @@ const quizData = [
         c: "Built-in camera",
         d: "Headphone access",
         correct: "a",
-        number: "Question 9"
+        number: "Question 9",
+        chapter: 'Chapter 2'
     },
     {
         question: "Which of the following is NOT a potential effect of overheating of a mobile device when testing it?",
@@ -87,7 +96,8 @@ const quizData = [
         c: "De-installation of the app",
         d: "Incorrect functionality of apps",
         correct: "c",
-        number: "Question 10"
+        number: "Question 10",
+        chapter: 'Chapter 2'
     },
     {
         question: "Which of the following statements is NOT a valid scenario for testing a mobile device regarding input sensors?",
@@ -96,7 +106,8 @@ const quizData = [
         c: "Validating data provided by the motion sensor",
         d: "Correct screen size in landscape and portrait modes",
         correct: "d",
-        number: "Question 11"
+        number: "Question 11",
+        chapter: 'Chapter 2'
     },
     {
         question: "Which of the following options contains tests that ONLY relate to different input methods?",
@@ -105,7 +116,8 @@ const quizData = [
         c: "Dragging an object on the screen, opening another application, capturing of images,sending an SMS to a friend",
         d: "Displaying geo location data, performing distance measurements, using a TV remote app, capturing videos from the internet",
         correct: "a",
-        number: "Question 12"
+        number: "Question 12",
+        chapter: 'Chapter 2'
     },
     {
         question: "You are working as a mobile tester for a company which is developing a navigation app. One of the requirements is that the app should run in both portrait and landscape modes whilst providing the same features to the user in an accurate way. Which of the following lists the BEST aspects to take into account for verifying correct functionality when switching screen orientation?",
@@ -114,7 +126,8 @@ const quizData = [
         c: "Various switches in screen orientation, performance issues, user interface features",
         d: "WLAN interrupts, rendering issues in the graphical user interface, loss of entered data",
         correct: "b",
-        number: "Question 13"
+        number: "Question 13",
+        chapter: 'Chapter 2'
     },
     {
         question: "You are working as a test manager for a bank which is developing a new release of its online banking software. This software is realized as a web application. During the preparation of suitable tests, you are focusing on the app's fault tolerance according user-initiated interrupts. <br><br>Consider the following test scenarios:<br>i. Displaying low battery warnings <br>ii. Setting mobile devices in standby mode<br>iii. Accepting incoming voice calls<br>iv. Low memory notification<br>v. Setting device in do-not-disturb mode.<br><br>Which would you choose at BEST for this purpose?",
@@ -123,7 +136,8 @@ const quizData = [
         c: "ii - iii - iv",
         d: "ii - iii - v",
         correct: "d",
-        number: "Question 14"
+        number: "Question 14",
+        chapter: 'Chapter 2'
     },
     {
         question: "A health insurance company released an updated version of its customer app. The update includes a feature which scans a pharmacy bill and sends it directly to the health insurance company for payment. However, when the customers installed the update, they found that the camera couldn't be invoked to scan the bills. This bug was reported and fixed. Now new tests need to be prepared and executed, and retesting needs to be performed. Which of the following tests will you execute as the MOST IMPORTANT test in the given scenario?",
@@ -132,7 +146,8 @@ const quizData = [
         c: "Test for access permission",
         d: "Test for installation",
         correct: "c",
-        number: "Question 15"
+        number: "Question 15",
+        chapter: 'Chapter 2'
     },
     {
         question: "Your company provides a news massaging app that includes a notification feature for displaying breaking news. The notifications have deep linking to the relevant online news pages. Recently, some users of the app complained about experiencing delays with the display of the news notifications, while at other times, the expected notifications were not displayed at all. The root cause of this defect was identified by the developers and fixed.<br><br>Consider:<br>i. Correct displaying of the notification when the app is in the background<br>ii. Running the application under low battery conditions<br>iii. Testing the performance of the app whilst displaying the notification<br>iv. Performing of usability tests related to the fixed version of the app<br>v. The deep linking to the correct news page of the app In your role as a mobile tester, which functional tests would you undertake in order to validate that the fixed version of the app is correctly working?",
@@ -141,7 +156,8 @@ const quizData = [
         c: "i - ii - v",
         d: "ii - iii - iv",
         correct: "c",
-        number: "Question 16"
+        number: "Question 16",
+        chapter: 'Chapter 2'
     },
     {
         question: "Your company is developing a new version of a hybrid app for price comparison. This app consists of feature-rich functionalities in quick-access links. As a mobile tester, it is your task to verify the failure-free working of these quick-access links. Which of the following is the BEST approach to take?",
@@ -150,7 +166,8 @@ const quizData = [
         c: "Verifying that all hardware keys of a mobile device work as expected",
         d: "Using a suitable tool for identifying broken links in the mobile web app",
         correct: "a",
-        number: "Question 17"
+        number: "Question 17",
+        chapter: 'Chapter 2'
     },
     {
         question: "You are testing a native iOS app that uses various sensors. Which of the following test types do NOT apply?",
@@ -159,7 +176,8 @@ const quizData = [
         c: "Cross-browser testing",
         d: "Device compatibility testing",
         correct: "c",
-        number: "Question 18"
+        number: "Question 18",
+        chapter: 'Chapter 2'
     },
     {
         question: "Which of the following is a typical test type for testing interoperability with OS versions?",
@@ -168,7 +186,8 @@ const quizData = [
         c: "Testing for accessibility standards",
         d: "Testing for backward compatibility",
         correct: "d",
-        number: "Question 19"
+        number: "Question 19",
+        chapter: 'Chapter 2'
     },
     {
         question: "Which of the following is a PRIMARY test goal when performing tests for co-existence of a system under test (SUT) with other apps on the device?",
@@ -177,7 +196,8 @@ const quizData = [
         c: "Assessing usability problems in the SUT",
         d: "Testing if the SUT meets accessibility standards",
         correct: "a",
-        number: "Question 20"
+        number: "Question 20",
+        chapter: 'Chapter 2'
     },
     {
         question: "You are developing a test approach for performing connectivity tests on different types of mobile devices. Which of the following should NOT be in scope for this approach?",
@@ -186,7 +206,8 @@ const quizData = [
         c: "Using Bluetooth for pairing with a wearable device",
         d: "Connecting a USB cable with a power supply",
         correct: "d",
-        number: "Question 21"
+        number: "Question 21",
+        chapter: 'Chapter 2'
     },
     {
         question: "You are assigned the task of installation testing for an Android application. Which of the following installation tests should NOT be used?",
@@ -195,7 +216,8 @@ const quizData = [
         c: "Installation from Google Play Beta Program",
         d: "Side-loading by providing",
         correct: "a",
-        number: "Question 22"
+        number: "Question 22",
+        chapter: 'Chapter 3'
     },
     {
         question: "Which of the following are potential security issues for mobile apps?",
@@ -204,7 +226,8 @@ const quizData = [
         c: "Overlap of screen elements on small screens",
         d: "Data being transferred unencrypted",
         correct: "a",
-        number: "Question 23"
+        number: "Question 23",
+        chapter: 'Chapter 3'
     },
     {
         question: "Which of the following are you likely to use to carry out a performance test of the time behavior of an app?",
@@ -213,7 +236,8 @@ const quizData = [
         c: "Running the app on an emulator/simulator",
         d: "A device and a stopwatch to check the performance of the device",
         correct: "a",
-        number: "Question 24"
+        number: "Question 24",
+        chapter: 'Chapter 3'
     },
     {
         question: "You are tasked with carrying out a usability test for a mobile app. Which of the following is a step that you will NOT perform?",
@@ -222,7 +246,8 @@ const quizData = [
         c: "Activate the voice-over feature of the device",
         d: "Learn about the look and feel expectations of the platform",
         correct: "c",
-        number: "Question 25"
+        number: "Question 25",
+        chapter: 'Chapter 3'
     },
     {
         question: "What does the mnemonic \"CRUD\" stand for in the context of data validation testing?",
@@ -231,7 +256,8 @@ const quizData = [
         c: "Create, Read, Update, Delete",
         d: "Create, Read, Undo, Deploy",
         correct: "c",
-        number: "Question 26"
+        number: "Question 26",
+        chapter: 'Chapter 3'
     },
     {
         question: "You are conducting internationalization testing. While you execute the tests you partly see pseudostrings and partly English strings. Which of the following is the most likely cause?",
@@ -240,7 +266,8 @@ const quizData = [
         c: "Wrong language settings of the device",
         d: "Something went wrong during build",
         correct: "b",
-        number: "Question 27"
+        number: "Question 27",
+        chapter: 'Chapter 3'
     },
     {
         question: "Why should accessibility testing be conducted?",
@@ -249,7 +276,8 @@ const quizData = [
         c: "To completely test the application",
         d: "As generic test cases exist that must be executed for every application",
         correct: "a",
-        number: "Question 28"
+        number: "Question 28",
+        chapter: 'Chapter 3'
     },
     {
         question: "You are a tester in a team developing a mobile app. Your team has finished the current version of the app and has released it to the application store. Which of the following is your next activity?",
@@ -258,7 +286,8 @@ const quizData = [
         c: "Application store approval testing",
         d: "Test closure",
         correct: "b",
-        number: "Question 29"
+        number: "Question 29",
+        chapter: 'Chapter 3'
     },
     {
         question: "You are a new member in a team which is testing mobile applications. Your team lead asks you to test the app's inputs for a duration of 1 hour, functions for 1 hour, and interrupts for 1 hour, and so on. Which of the following is the team lead applying?",
@@ -267,7 +296,8 @@ const quizData = [
         c: "Managing Performance Testing",
         d: "Session-Based Test Management",
         correct: "d",
-        number: "Question 30"
+        number: "Question 30",
+        chapter: 'Chapter 3'
     },
     {
         question: "Which of the following is an effective method for field testing?",
@@ -276,7 +306,8 @@ const quizData = [
         c: "Using a cloud-based approach",
         d: "Using a test tool for executing automated tests on mobile browsers",
         correct: "a",
-        number: "Question 31"
+        number: "Question 31",
+        chapter: 'Chapter 3'
     },
     {
         question: "Why is it common for mobile app projects to flip the Test Pyramid?",
@@ -285,7 +316,8 @@ const quizData = [
         c: "Mobile apps are always monolithic. As a result, everything can be tested at system level and there is no need to test at lower levels",
         d: "Mobile apps require a lot of manual testing, like usability or field testing",
         correct: "d",
-        number: "Question 32"
+        number: "Question 32",
+        chapter: 'Chapter 3'
     },
     {
         question: "Which of the following statements is correct for the development environments used for mobile application development?",
@@ -294,7 +326,8 @@ const quizData = [
         c: "Android developers use the Xcode IDE as their development environment",
         d: "iOS developers use the Xcode IDE as their development environment",
         correct: "d",
-        number: "Question 33"
+        number: "Question 33",
+        chapter: 'Chapter 4'
     },
     {
         question: "Which of the following is NOT a task that can be typically performed by using a software development kit (SDK) for mobile applications?",
@@ -303,7 +336,8 @@ const quizData = [
         c: "Pushing random events to the application",
         d: "Creating virtual devices",
         correct: "b",
-        number: "Question 34"
+        number: "Question 34",
+        chapter: 'Chapter 4'
     },
     {
         question: "You are assigned as a tester for a mobile app with a client-server architecture. In order to better utilize available equipment, the company decides to use the employee’s PC without the application being connected to a real server, in order to test the basic features in early test stages. Which of the following architectures would you recommend that the developer of the Android app should use in the early test stages of the development to verify the functional suitability of the basic features?",
@@ -312,7 +346,8 @@ const quizData = [
         c: "Have the server simulator installed on the developer's PC and the mobile application installed on one of the AVD's device emulators",
         d: "Have the server simulator and the emulated mobile application installed directly on the developer's PC ",
         correct: "c",
-        number: "Question 35"
+        number: "Question 35",
+        chapter: 'Chapter 4'
     },
     {
         question: "You are the test manager in a digital banking division at a Fintech company that is upgrading theAndroid-based mobile banking application of a mid-level financial institution. The upgrade incorporates an innovative security mechanism that uses fingerprint and face recognition features for enhanced app security. Which of the following represents the BEST approach to use in order to setup your test lab for this enhancement?",
@@ -321,7 +356,8 @@ const quizData = [
         c: "Setup a remote test lab in order to test the mobile banking application on many types of different devices and an on premise lab to cover the maximum of possible devices",
         d: "Setup a remote test lab in order to test the new innovative mobile banking application on many types of Android devices from different device manufacturers and save money for the company",
         correct: "b",
-        number: "Question 36"
+        number: "Question 36",
+        chapter: 'Chapter 4'
     },
     {
         question: "Which of the following statement does NOT correctly distinguish between the common mobile testing automation approaches?",
@@ -330,7 +366,8 @@ const quizData = [
         c: "Native apps are best tested using the general web application automation tools, whereas mobile apps need specific tools",
         d: "The mode of operation for the agent-based testing approach is to mimic the browser characteristics, whereas that of the device-based testing approach is to operate on the actual browser",
         correct: "c",
-        number: "Question 37"
+        number: "Question 37",
+        chapter: 'Chapter 5'
     },
     {
         question: "Which of the following statements is TRUE regarding the scripting methods used in automation of mobile testing?",
@@ -339,7 +376,8 @@ const quizData = [
         c: "The scripting method using object identification increases the ongoing maintenance effort when there are frequent software code changes to the app that affect the baseline images",
         d: "Relying on OCR/Text recognition and object learning does not pose a risk to the test automation reliability or robustness",
         correct: "b",
-        number: "Question 38"
+        number: "Question 38",
+        chapter: 'Chapter 5'
     },
     {
         question: "Which of the following is NOT a major consideration during the evaluation of mobile automation test tools?",
@@ -348,7 +386,8 @@ const quizData = [
         c: "It is important to consider automation requirements and complexities",
         d: "Ability of the test framework to operate independently of other existing tools used in the organization",
         correct: "d",
-        number: "Question 39"
+        number: "Question 39",
+        chapter: 'Chapter 5'
     },
     {
         question: "Which of the following statements LEAST supports the use of a remote test lab?",
@@ -357,7 +396,8 @@ const quizData = [
         c: "Remote device labs will ensure sufficient variety of device and OS to enable teams to get a larger variety of test gadgets for their testing",
         d: "Remote labs are better when executing at large-scale because they are typically designed to ensure that stability concerns are in most cases removed from the overall process",
         correct: "b",
-        number: "Question 40"
+        number: "Question 40",
+        chapter: 'Chapter 5'
     }
 ];
 
@@ -378,6 +418,11 @@ let scorePercentage = '';
 
 let currentQuiz = 0;
 let score = 0;
+let chapter1Score = 0;
+let chapter2Score = 0;
+let chapter3Score = 0;
+let chapter4Score = 0;
+let chapter5Score = 0;
 
 loadQuiz()
 
@@ -424,7 +469,6 @@ function percentage(score) {
     scorePercentage =  (100 * score) / quizData.length;
     return scorePercentage;
 }
-
 
 function endResult(scorePercentage) {
     if (scorePercentage < 40.0) {

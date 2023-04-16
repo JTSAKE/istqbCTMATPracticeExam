@@ -389,3 +389,11 @@ c) Remote device labs will ensure sufficient variety of device and OS to enable 
 larger variety of test gadgets for their testing
 d) Remote labs are better when executing at large-scale because they are typically designed
 to ensure that stability concerns are in most cases removed from the overall process
+
+
+-----New Additions: Chapter Percentage Function-----
+Add chapter identifier to each questions
+Create variables for each chapter to hold the score
+Add chapter incrementor to the main quiz function
+create function to calculate percentage per chapter
+Insert HTML to show chapter percentages (can print to console first)
