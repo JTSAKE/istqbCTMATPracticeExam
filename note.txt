@@ -393,6 +393,11 @@ to ensure that stability concerns are in most cases removed from the overall pro
 
 -----New Additions: Chapter Percentage Function-----
 Add chapter identifier to each questions
+    Chapte 1: Q 1-8
+    Chapte 2: Q 9-21
+    Chapte 3: Q 22-32
+    Chapte 4: Q 33-36
+    Chapte 5: Q 37-40
 Create variables for each chapter to hold the score
 Add chapter incrementor to the main quiz function
 create function to calculate percentage per chapter
