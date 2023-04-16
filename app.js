@@ -374,9 +374,10 @@ const c_input = document.getElementById('c')
 const d_text = document.getElementById('d_text')
 const d_input = document.getElementById('d')
 const submitBtn = document.getElementById('submit')
+let scorePercentage = '';
 
-let currentQuiz = 0
-let score = 0
+let currentQuiz = 0;
+let score = 0;
 
 loadQuiz()
 
@@ -419,6 +420,20 @@ function hideElements() {
     submitBtn.classList.add('invisible')
 }
 
+function percentage(score) {
+    scorePercentage =  (100 * score) / quizData.length;
+    return scorePercentage;
+}
+
+
+function endResult(scorePercentage) {
+    if (scorePercentage < 40.0) {
+        return 'You Failed!'
+    } else {
+        return 'You Passed!'
+    }
+}
+
 submitBtn.addEventListener('click', () => {
     const answer = getSelected()
     if (answer) {
@@ -433,11 +448,12 @@ submitBtn.addEventListener('click', () => {
         } else {
             hideElements()
             quiz.innerHTML = `
-            <h2>You answered ${score}/${quizData.length} questions correctly</h2>
+            <h2>You answered ${score}/${quizData.length} (${percentage(score)}%) questions correctly</h2>
+
+            <h2>${endResult()}</h2>
 
             <button class="btn btn-primary my-3" onclick="location.reload()">Reload</button>
             `
-
         }
     }
 })
