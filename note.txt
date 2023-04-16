@@ -1,0 +1,391 @@
+JS guide Video:  https://www.youtube.com/watch?v=CqddbIrEM5I
+
+
+Questions:
+
+1. You are the quality specialist in a mobile application development team. For which of the following
+would mobile analytics data be used in the test strategy or test plan?
+
+a) To define the expected user base of the application
+b) To derive test levels, test cases and test data
+c) To select the device portfolio and prioritization for test execution (CORRECT)
+d) To select the application type and development model to follow
+
+
+2. Your team is developing a free-use application that collects publicly available news from user
+selected sources so that the user has a single place to read all the news from his/her favorite
+sources. Based on this information, which of the following business models is MOST appropriate?
+a) Freemium application
+b) Advertisement-based application (CORRECT)
+c) Paid application
+d) Transaction-based application
+
+
+3. Which of the following statements is true for feature phones?
+a) Feature phones provide limited support for app installation (CORRECT)
+b) Feature phones are similar to smart phones but bigger
+c) Feature phones are the next generation smartphones, with extended functionality
+d) Feature phones have cameras, GPS and other sensors built in
+
+
+4. Your team develops an Android game utilizing many device features such as camera, GPS and
+device orientation. Which of the following types of application is MOST suitable, if the precise use
+of device specific features is essential?
+a) Hybrid app
+b) Mobile web app
+c) Native app (CORRECT)
+d) Desktop app
+
+
+5. Your team develops an iOS app that is used to register users, their e-mail and street addresses.
+The data is transferred to a server and provides registered users with samples of physical
+products, shipped via normal mail.
+Which of the following are the MOST appropriate architectural decisions to consider for this app?
+a) Always Connected
+b) Native app (CORRECT)
+c) Store and forward (CORRECT)
+d) Cellular data
+e) Web app
+SELECT 2
+
+6. Your analytics data shows that all your users use iPhone. Which of the following decisions is
+MOST appropriate for your test strategy if you have a low risk app?
+a) Use remote device access service
+b) Use single platform strategy (CORRECT)
+c) Use maximum coverage strategy
+d) Use iOS simulators only
+
+
+7. Which of the following is NOT a challenge when testing mobile apps?
+a) Unknown command parameters for application startup altering the app’s behavior
+b) Diverse users and user groups (CORRECT)
+c) Multiple network types and network providers
+d) Non-availability of newly launched devices necessitating the use of emulators/simulators
+
+
+8. A company has decided to use crowd testing. Which of the following risks is mitigated by this
+decision?
+a) Non-availability of important stakeholders during development
+b) Cost of supporting multiple platforms
+c) Non-availability of important devices during testing (CORRECT)
+d) Good reviews in the platform provider’s app store
+
+
+9. When testing a native app using different device features, which of the following hardware devices
+is LEAST needed to be in focus when performing the tests?
+a) WLAN module (CORRECT)
+b) Integrated speakers
+c) Built-in camera
+d) Headphone access
+
+
+10. Which of the following is NOT a potential effect of overheating of a mobile device when testing it?
+a) Application becomes slow
+b) Features of the application stop working
+c) De-installation of the app (CORRECT)
+d) Incorrect functionality of apps
+
+
+11.Which of the following statements is NOT a valid scenario for testing a mobile device regarding
+input sensors?
+a) Verifying the quality of the received GPS signal
+b) Testing for correct functionality of the gyroscope
+c) Validating data provided by the motion sensor
+d) Correct screen size in landscape and portrait modes (CORRECT)
+
+
+12. Which of the following options contains tests that ONLY relate to different input methods?
+a) Swiping to the next screen, double tapping on a button, scanning a QR code, recording
+audio (CORRECT)
+b) Taking a photo with the camera, using a soft keyboard, printing the content of a screen,
+using GPS coordinates
+c) Dragging an object on the screen, opening another application, capturing of images,
+sending an SMS to a friend
+d) Displaying geo location data, performing distance measurements, using a TV remote app,
+capturing videos from the internet
+
+
+13. You are working as a mobile tester for a company which is developing a navigation app. One of the
+requirements is that the app should run in both portrait and landscape modes whilst providing the
+same features to the user in an accurate way. Which of the following lists the BEST aspects to take
+into account for verifying correct functionality when switching screen orientation?
+a) Motion sensor, security issues, correctness of output data
+b) Usability issues, retaining input data, maintenance of current state (CORRECT)
+c) Various switches in screen orientation, performance issues, user interface features
+d) WLAN interrupts, rendering issues in the graphical user interface, loss of entered data
+
+
+14. You are working as a test manager for a bank which is developing a new release of its online
+banking software. This software is realized as a web application. During the preparation of suitable
+tests, you are focusing on the app’s fault tolerance according user-initiated interrupts.
+
+Consider the following test scenarios:
+i. Displaying low battery warnings
+ii. Setting mobile devices in standby mode
+iii. Accepting incoming voice calls
+iv. Low memory notification
+v. Setting device in do-not-disturb mode
+
+Which would you choose at BEST for this purpose?
+a) i – ii – iii
+b) i – ii – iv
+c) ii – iii – iv
+d) ii – iii – v (Correct)
+
+
+15. A health insurance company released an updated version of its customer app. The update includes
+a feature which scans a pharmacy bill and sends it directly to the health insurance company for
+payment. However, when the customers installed the update, they found that the camera couldn't
+be invoked to scan the bills. This bug was reported and fixed. Now new tests need to be prepared
+and executed, and retesting needs to be performed.
+
+Which of the following tests will you execute as the MOST IMPORTANT test in the given scenario?
+a) Test for performance
+b) Test for accessibility
+c) Test for access permission (Correct)
+d) Test for installation
+
+
+16. Your company provides a news massaging app that includes a notification feature for displaying
+breaking news. The notifications have deep linking to the relevant online news pages. Recently,
+some users of the app complained about experiencing delays with the display of the news
+notifications, while at other times, the expected notifications were not displayed at all. The root
+cause of this defect was identified by the developers and fixed.
+
+Consider:
+
+i. Correct displaying of the notification when the app is in the background
+ii. Running the application under low battery conditions
+iii. Testing the performance of the app whilst displaying the notification
+iv. Performing of usability tests related to the fixed version of the app
+v. Testing the deep linking to the correct news page of the app
+In your role as a mobile tester, which functional tests would you undertake in order to validate that
+the fixed version of the app is correctly working?
+
+a) i – iv – v
+b) i– ii – iv
+c) i – ii – v (Correct)
+d) ii – iii – iv
+
+
+17. Your company is developing a new version of a hybrid app for price comparison. This app consists
+of feature-rich functionalities in quick-access links. As a mobile tester, it is your task to verify the
+failure-free working of these quick-access links. Which of the following is the BEST approach to
+take?
+a) Verifying the correct behavior of force-touch functionality of an iOS app (Correct)
+b) Assuring the presence of favorite bookmarks in Mobile Chrome on Android OS
+c) Verifying that all hardware keys of a mobile device work as expected
+d) Using a suitable tool for identifying broken links in the mobile web app
+
+18. You are testing a native iOS app that uses various sensors. Which of the following test types do
+NOT apply?
+a) Performance testing
+b) Testing for utilization of device features
+c) Cross-browser testing (Correct)
+d) Device compatibility testing
+
+
+19. Which of the following is a typical test type for testing interoperability with OS versions?
+a) Testing for security issues
+b) Testing for performance problems
+c) Testing for accessibility standards
+d) Testing for backward compatibility (Correct)
+
+
+20. Which of the following is a PRIMARY test goal when performing tests for co-existence of a system
+under test (SUT) with other apps on the device?
+a) Verifying that the SUT does not harm any user data (Correct)
+b) Identifying existing security issues on the device
+c) Assessing usability problems in the SUT
+d) Testing if the SUT meets accessibility standards
+
+21. You are developing a test approach for performing connectivity tests on different types of mobile
+devices. Which of the following should NOT be in scope for this approach?
+a) Switching from GSM to flight mode and back to GSM
+b) Initiating a payment transaction via NFC
+c) Using Bluetooth for pairing with a wearable device
+d) Connecting a USB cable with a power supply (Correct)
+
+22. You are assigned the task of installation testing for an Android application. Which of the following
+installation tests should NOT be used?
+a) Executing App-Installer.exe (Correct)
+b) Install by connecting the device to a PC and running commands for installation
+c) Installation from Google Play Beta Program
+d) Side-loading by providing
+
+23. Which of the following are potential security issues for mobile apps?
+a) Code injection via input fields (Correct)
+b) Data being transferred unencrypted (Correct)
+c) App not responding after interruption
+d) Rendering issues after changing device orientation
+e) Overlap of screen elements on small screens
+SELECT 2
+
+24. Which of the following are you likely to use to carry out a performance test of the time behavior of
+an app?
+a) An instrumented build to get exact chronometric numbers (Correct)
+b) A load generator to observe the server behavior under heavy load
+c) Running the app on an emulator/simulator
+d) A device and a stopwatch to check the performance of the device
+
+
+25. You are tasked with carrying out a usability test for a mobile app. Which of the following is a step
+that you will NOT perform?
+a) Ask the manager to order a usability lab session
+b) Test the app to check compliance with platforms user interface guidelines
+c) Activate the voice-over feature of the device (Correct)
+d) Learn about the look and feel expectations of the platform
+
+
+26. What does the mnemonic "CRUD" stand for in the context of data validation testing?
+a) Copy, Rename, Update, Delete
+b) Create, Read, Undo, Delete
+c) Create, Read, Update, Delete (Correct)
+d) Create, Read, Undo, Deploy
+
+
+27. You are conducting internationalization testing. While you execute the tests you partly see pseudostrings and partly English strings. Which of the following is the most likely cause?
+a) Missing translations
+b) Hard-coded English strings (Correct)
+c) Wrong language settings of the device
+d) Something went wrong during build
+
+
+28. Why should accessibility testing be conducted?
+a) To determine if the app is usable by users with differing needs (Correct)
+b) Because it is required by the W3C and the platform providers
+c) To completely test the application
+d) As generic test cases exist that must be executed for every application
+
+
+29. You are a tester in a team developing a mobile app. Your team has finished the current version of
+the app and has released it to the application store. Which of the following is your next activity?
+a) Archiving testware
+b) Post-release testing (Correct)
+c) Application store approval testing
+d) Test closure
+
+
+30. You are a new member in a team which is testing mobile applications. Your team lead asks you to
+test the app’s inputs for a duration of 1 hour, functions for 1 hour, and interrupts for 1 hour, and so
+on. Which of the following is the team lead applying?
+a) Risk-Based Test Management
+b) Delegating the responsibility of his job to you
+c) Managing Performance Testing
+d) Session-Based Test Management (Correct)
+
+
+31. Which of the following is an effective method for field testing?
+a) Using tours as a kind of exploratory test technique (Correct)
+b) Using an in-house device lab for executing tests on different smartphones
+c) Using a cloud-based approach
+d) Using a test tool for executing automated tests on mobile browsers
+
+
+32. Why is it common for mobile app projects to flip the Test Pyramid?
+a) Unit tests are much more complicated on mobile apps. As a result, it is convenient to only
+have a few unit tests
+b) Missing tool support for unit and integration testing for mobile apps
+c) Mobile apps are always monolithic. As a result, everything can be tested at system level
+and there is no need to test at lower levels
+d) Mobile apps require a lot of manual testing, like usability or field testing (Correct)
+
+
+
+33. Which of the following statements is correct for the development environments used for mobile
+application development?
+a) iOS developers use Visual Studio IDE as their development environment
+b) Android developers use the Universal Studio IDE while iOS developers use Xcode as their
+development environment
+c) Android developers use the Xcode IDE as their development environment
+d) iOS developers use the Xcode IDE as their development environment (Correct)
+
+
+34. Which of the following is NOT a task that can be typically performed by using a software
+development kit (SDK) for mobile applications?
+a) Taking screenshots
+b) Designing test cases (Correct)
+c) Pushing random events to the application
+d) Creating virtual devices
+
+
+35. You are assigned as a tester for a mobile app with a client-server architecture. In order to better
+utilize available equipment, the company decides to use the employee’s PC without the application
+being connected to a real server, in order to test the basic features in early test stages. Which of
+the following architectures would you recommend that the developer of the Android app should use
+in the early test stages of the development to verify the functional suitability of the basic features?
+
+a) Have the server emulator installed on the developer’s PC and the simulator of the mobile
+application installed on a real device
+b) Have the simulator of the mobile application installed on one of the Android Virtual Device’s
+(AVD’s) device emulators and the server emulator installed on the developer’s PC
+c) Have the server simulator installed on the developer’s PC and the mobile application
+installed on one of the AVD’s device emulators (Correct)
+d) Have the server simulator and the emulated mobile application installed directly on the
+developer’s PC 
+
+
+36. You are the test manager in a digital banking division at a Fintech company that is upgrading the
+Android-based mobile banking application of a mid-level financial institution. The upgrade
+incorporates an innovative security mechanism that uses fingerprint and face recognition features
+for enhanced app security. Which of the following represents the BEST approach to use in order to
+setup your test lab for this enhancement?
+
+a) Setup a remote test lab in order to test the new innovative mobile banking application on as
+many types of devices as possible
+b) Setup an on premise lab in order to effectively test the new unique device-related features
+of the innovative mobile banking application (Correct)
+c) Setup a remote test lab in order to test the mobile banking application on many types of
+different devices and an on premise lab to cover the maximum of possible devices
+d) Setup a remote test lab in order to test the new innovative mobile banking application on
+many types of Android devices from different device manufacturers and save money for the
+company
+
+
+37.Which of the following statement does NOT correctly distinguish between the common mobile
+testing automation approaches?
+a) Agent-based testing approach is best used for executing mobile web applications, whereas
+device-based testing are best used for all types of mobile applications
+b) Agent-based testing approach utilizes a string sent by the browser to spoof a particular
+browser, whereas device-based testing approach has to be executed on a particular mobile
+gadget
+c) Native apps are best tested using the general web application automation tools, whereas
+mobile apps need specific tools (Correct)
+d) The mode of operation for the agent-based testing approach is to mimic the browser
+characteristics, whereas that of the device-based testing approach is to operate on the
+actual browser
+
+
+38.Which of the following statements is TRUE regarding the scripting methods used in automation of
+mobile testing?
+a) Scripting using object identification is faster than using visual based (OCR/Text
+recognition), and therefore reduces the overall time needed for test execution
+b) Object based scripting is the more reliable method of authoring test automation code
+because it allows the test framework to match the right mobile application object
+agnostically to the device under test (Correct)
+c) The scripting method using object identification increases the ongoing maintenance effort
+when there are frequent software code changes to the app that affect the baseline images
+d) Relying on OCR/Text recognition and object learning does not pose a risk to the test
+automation reliability or robustness
+
+
+
+39.Which of the following is NOT a major consideration during the evaluation of mobile automation
+test tools?
+a) The test automation skill set of the testers who will be using the tool
+b) Test automation requirements and complexities such as the use of new features such as
+FaceID, Fingerprint, Chatbots by the app
+c) It is important to consider automation requirements and complexities
+d) Ability of the test framework to operate independently of other existing tools used in the
+organization (Correct)
+
+
+40.Which of the following statements LEAST supports the use of a remote test lab?
+a) Testing during later stages of the app development and which need to run on the full device
+lab, is best done on a remote device lab
+b) A remote device lab will most likely cover a small set of the latest device/OS configurations
+to allow developers and testers to quickly validate early design stages of the app (Correct)
+c) Remote device labs will ensure sufficient variety of device and OS to enable teams to get a
+larger variety of test gadgets for their testing
+d) Remote labs are better when executing at large-scale because they are typically designed
+to ensure that stability concerns are in most cases removed from the overall process

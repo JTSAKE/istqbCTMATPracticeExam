@@ -1,0 +1,19 @@
+form {
+    width: 50%;
+}
+
+form button {
+    width: 25%;
+}
+
+div label {
+    font-size: 25px;
+}
+
+div input {
+    font-size: 25px;
+}
+
+.invisibile {
+    display: none;
+}
